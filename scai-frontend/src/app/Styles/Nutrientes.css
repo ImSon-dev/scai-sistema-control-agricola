@@ -1,0 +1,100 @@
+.nutrients-container {
+  padding: 20px;
+}
+
+.summary {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1;
+  font-weight: bold;
+}
+
+.card.red {
+  color: red;
+}
+
+.card.orange {
+  color: orange;
+}
+
+.recommendation {
+  background: #eef4ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.nutrient-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.nutrient-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+}
+
+.value {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.badge.low {
+  background: #ffe5e5;
+  color: red;
+}
+
+.badge.high {
+  background: #fff4e5;
+  color: orange;
+}
+
+.badge.optimal {
+  background: #e5f9e5;
+  color: green;
+}
+
+.bar {
+  height: 8px;
+  background: #eee;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.fill.low {
+  background: red;
+}
+
+.fill.high {
+  background: orange;
+}
+
+.fill.optimal {
+  background: green;
+}
+.chart-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}

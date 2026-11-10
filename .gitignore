@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (NO subir API keys)
+.env
+
+# Archivos temporales de macOS
+._*
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/

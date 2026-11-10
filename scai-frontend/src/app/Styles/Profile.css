@@ -1,0 +1,70 @@
+.profile-container {
+  padding: 20px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.profile-form {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid input,
+.grid textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.grid textarea {
+  grid-column: span 2;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.loader {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #e6f4ea;
+  color: #1b5e20;
+  font-weight: 500;
+}
